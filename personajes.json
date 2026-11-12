@@ -1,0 +1,49 @@
+
+
+[
+    {
+        "name": "Harry Potter",
+        "house": "Gryffindor",
+        "species": "human",
+        "gender": "male",
+        "actor": "Daniel Radcliffe",
+        "alive": true,
+        "image": "./img/harry.jpg"
+    },
+    {
+        "name": "Hermione Granger",
+        "house": "Gryffindor",
+        "species": "human",
+        "gender": "female",
+        "actor": "Emma Watson",
+        "alive": true,
+        "image": "./img/hermione.jpg"
+    },
+    {
+        "name": "Draco Malfoy",
+        "house": "Slytherin",
+        "species": "human",
+        "gender": "male",
+        "actor": "Tom Felton",
+        "alive": true,
+        "image": "./img/draco.jpg"
+    },
+    {
+        "name": "Luna Lovegood",
+        "house": "Ravenclaw",
+        "species": "human",
+        "gender": "female",
+        "actor": "Evanna Lynch",
+        "alive": true,
+        "image": "./img/luna.jpg"
+    },
+    {
+        "name": "Cedric Diggory",
+        "house": "Hufflepuff",
+        "species": "human",
+        "gender": "male",
+        "actor": "Robert Pattinson",
+        "alive": false,
+        "image": "./img/cedric.jpg"
+    }
+]

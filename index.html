@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personajes de Harry Potter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Personajes de Harry Potter</h1>
+        <p>Explora los personajes del mundo mágico</p>
+    </header>
+
+    <main>
+        <section class="filtros">
+            <input
+                type="text"
+                id="buscar"
+                placeholder="Buscar personaje..."
+            >
+
+            <select id="casa">
+                <option value="">Todas las casas</option>
+                <option value="Gryffindor">Gryffindor</option>
+                <option value="Slytherin">Slytherin</option>
+                <option value="Hufflepuff">Hufflepuff</option>
+                <option value="Ravenclaw">Ravenclaw</option>
+            </select>
+
+            <button id="limpiar">Limpiar filtros</button>
+        </section>
+
+        <p id="total"></p>
+        <p id="mensaje">Cargando personajes...</p>
+
+        <div id="lista"></div>
+    </main>
+
+</body>
+</html>

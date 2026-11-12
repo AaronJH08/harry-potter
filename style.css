@@ -1,0 +1,109 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: #222;
+}
+
+header {
+    background-color: #202638;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.filtros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+input {
+    width: 250px;
+}
+
+button {
+    background-color: #202638;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #394762;
+}
+
+#total, #mensaje {
+    text-align: center;
+}
+
+#lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    width: 230px;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 6px solid #888;
+    box-shadow: 0 4px 10px #00000020;
+}
+
+.tarjeta h3 {
+    text-align: center;
+    min-height: 45px;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.tarjeta p {
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .filtros {
+        flex-direction: column;
+    }
+
+    input, select, button {
+        width: 100%;
+    }
+
+    .tarjeta {
+        width: 100%;
+        max-width: 320px;
+    }
+}
